@@ -1,0 +1,65 @@
+body {
+  background-color: gainsboro;
+  margin: 0;
+  padding: 10px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  min-width: 400px;
+  max-width: fit-content;
+}
+
+#input-el {
+  width: 100%;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 5px;
+  border: 2px solid green;
+}
+
+#save-btn,
+#saveTab-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: 2px solid white;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#delete-btn {
+  background-color: white;
+  color: green;
+  padding: 10px 20px;
+  border: 2px solid green;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 5px;
+}
+
+#delete-btn:active {
+  background-color: lightgreen;
+  transform: scale(90%);
+  transition: 0.8s;
+}
+
+#save-btn:active,
+#saveTab-btn:active {
+  background-color: white;
+  transform: scale(90%);
+  transition: 0.8s;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+li {
+  margin: 5px;
+}
+
+a {
+  color: green;
+}
